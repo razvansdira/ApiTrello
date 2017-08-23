@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="API.tests.LoginTest" skipped="0" tests="1" time="22.42" timestamp="2017-08-21T15:36:28.576+03:00[Europe/Athens]"><testcase classname="API.tests.LoginTest" name="Test01 if login form validation works"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'EVO740', ip: '172.22.120.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: driver.version: FirefoxDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EVO740', ip: '172.22.120.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EVO740', ip: '172.22.120.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver&#13;
+API.steps.LoginSteps.navigateToLoginPage(LoginSteps.java:13)&#13;
+API.tests.LoginTest.test01IfLoginFormValidationWorks(LoginTest.java:37)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.tests.TrelloTest" skipped="1" tests="3" time="11.0" timestamp="2017-08-22T11:23:23.025+03:00[Europe/Athens]"><testcase classname="com.tests.TrelloTest" name="Test02 if created board works"/><testcase classname="com.tests.TrelloTest" name="Test01 if login form validation works"/><testcase classname="com.tests.TrelloTest" name="Test03 if created list works"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1726)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1731)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:172)&#13;
+io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1218)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1027)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:815)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:256)&#13;
+io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)&#13;
+com.steps.TrelloSteps.createdList(TrelloSteps.java:28)&#13;
+com.tests.TrelloTest.test03IfCreatedListWorks(TrelloTest.java:59)&#13;
+</system-err></testcase></testsuite>
