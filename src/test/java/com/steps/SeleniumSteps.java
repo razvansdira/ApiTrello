@@ -3,7 +3,8 @@ package com.steps;
 import com.pages.*;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
-import org.junit.Assert;
+
+import java.io.IOException;
 
 public class SeleniumSteps extends ScenarioSteps {
 
@@ -34,8 +35,8 @@ public class SeleniumSteps extends ScenarioSteps {
     }
 
     @Step
-    public void downloadFile() {
-        downloadPage.downloadFile();
+    public void downloadFile(String filePath) throws IOException  {
+        downloadPage.downloadFile(filePath);
     }
 
     @Step

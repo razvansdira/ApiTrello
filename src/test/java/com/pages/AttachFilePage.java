@@ -17,6 +17,6 @@ public class AttachFilePage extends PageObject{
     public void uploaadFile(){
         selectCard.click();
         attachButton.click();
-        getDriver().findElement(By.className("js-attach-file")).sendKeys("E:\\images\\show.png");
+        getDriver().findElement(By.className("js-attach-file")).sendKeys("E:\\Internship\\Bug.pdf");
     }
 }
