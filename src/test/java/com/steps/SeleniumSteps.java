@@ -35,8 +35,9 @@ public class SeleniumSteps extends ScenarioSteps {
     }
 
     @Step
-    public void downloadFile(String filePath) throws IOException  {
+    public void downloadFile(String filePath) throws IOException {
         downloadPage.downloadFile(filePath);
+        downloadPage.compareFile();
     }
 
     @Step

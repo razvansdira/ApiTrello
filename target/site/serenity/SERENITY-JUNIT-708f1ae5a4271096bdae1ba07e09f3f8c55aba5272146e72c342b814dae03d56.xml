@@ -1,1 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.features.TrelloTest" skipped="0" tests="1" time="13.75" timestamp="2017-08-24T16:59:23.661+03:00[Europe/Athens]"><testcase classname="com.features.TrelloTest" name="Test if API actions work"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.features.TrelloTest" skipped="0" tests="1" time="2.8" timestamp="2017-08-25T16:52:21.432+03:00[Europe/Athens]"><testcase classname="com.features.TrelloTest" name="Test if API actions work"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+com.features.TrelloTest.testIfAPIActionsWork(TrelloTest.java:85)&#13;
+</system-err></testcase></testsuite>
